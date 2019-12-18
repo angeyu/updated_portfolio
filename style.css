@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    border-bottom: 3px solid gold;
+ 
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    border-top: 3px solid teal;
+    color: white;
+
+}
+
+.name{
+
+    background-color: teal;
+    float: left;
+
+}
+
+.form-group2,
+.form-control2{
+    width: 100%;
+    height: 150px;
+ 
+}
+.container{
+    padding: 35px;
+    background-color: pink;
+    width: 960px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+button{
+
+    margin-top: 50px;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
